@@ -3,7 +3,11 @@
 """
 SORT BY CARD TYPE, NOTE TYPE, OR DECK NAME
 
-This addon makes the Card, Note, and Deck columns in the browser sortable. If the (primary) sort key is the card type, then the secondary sort key is the note type; and vice versa. Sorting is case-insensitive. The search box cannot be empty.
+This addon makes the Card, Note, and Deck columns in the browser sortable.
+
+If the (primary) sort key is the card type, then the secondary sort key is the note type; and vice versa. 
+
+Sorting is case-insensitive. The search box cannot be empty.
 """
 
 from aqt.browser import Browser
